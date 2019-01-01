@@ -22,7 +22,7 @@ export class GoogleLoginProvider extends BaseLoginProvider {
           gapi.load('auth2', () => {
             this.auth2 = gapi.auth2.init({
               client_id: this.clientId,
-              scope: 'email'
+              scope: ['email', 'https://www.googleapis.com/auth/youtube']
             });
 
             this.auth2.then(() => {
