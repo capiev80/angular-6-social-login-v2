@@ -1,6 +1,6 @@
 {
   "name": "angular-6-social-login-v2",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Agular 6 : Social Login (Facebook, Google, Vkontakte and LinkedIn)",
   "scripts": {
     "build": "gulp build",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/askidmobile/angular-6-social-login-v2.git"
+    "url": "https://github.com/jvangemeren/angular-6-social-login-v2.git"
   },
   "author": {
     "name": "Anton Pavlov",
