@@ -254,7 +254,7 @@ var GoogleLoginProvider = /** @class */ (function (_super) {
                 gapi.load('auth2', function () {
                     _this.auth2 = gapi.auth2.init({
                         client_id: _this.clientId,
-                        scope: ['email', 'https://www.googleapis.com/auth/youtube']
+                        scope: 'https://www.googleapis.com/auth/youtube'
                     });
                     _this.auth2.then(function () {
                         if (_this.auth2.isSignedIn.get()) {
